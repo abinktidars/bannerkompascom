@@ -1,0 +1,73 @@
+.banner-up {
+    width: 970px;
+    height: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-down {
+    width: 970px;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+.dropdown {
+    width: 971px;
+    height: 90px;
+    overflow: hidden;
+    position: relative;
+    /*margin: 0 auto;*/
+}
+
+.close-dropdown {
+    width: 41px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    background: url(../images/btn_hide.gif) no-repeat;
+}
+
+.open-dropdown {
+    width: 41px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    background: url(../images/btn_show.gif) no-repeat;
+}
+
+.video-dropdown {
+    width: 300px;
+    height: 170px;
+    display: block;
+    position: absolute;
+    right: 653px;
+    top: 16px;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.close-time {
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #000;
+    position: absolute;
+    width: 300px;
+    left: 20px;
+    bottom: 20px;
+}
+
+#player {
+    height: 0px;
+    overflow: hidden;
+}
